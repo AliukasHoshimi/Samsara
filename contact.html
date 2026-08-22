@@ -105,9 +105,22 @@
               </select>
             </div>
           </div>
-          <div>
-            <label for="dates">What date(s) are you looking at?</label>
-            <input type="text" id="dates" name="dates">
+          <div class="full-width date-field">
+            <label>What date(s) are you hoping for?</label>
+            <div class="date-range-row">
+              <div>
+                <label for="date-from" class="sublabel">Earliest</label>
+                <input type="date" id="date-from" name="date_from">
+              </div>
+              <div>
+                <label for="date-to" class="sublabel">Latest</label>
+                <input type="date" id="date-to" name="date_to">
+              </div>
+            </div>
+            <label class="checkbox-label">
+              <input type="checkbox" id="dates-flexible" name="dates_flexible">
+              I'm flexible on dates
+            </label>
           </div>
           <div class="full-width">
             <label for="message">Your Message*</label>

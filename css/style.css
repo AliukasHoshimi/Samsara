@@ -922,6 +922,53 @@ button.arrow-link:hover { border-color: var(--terracotta); }
   .contact-form.booking-grid { grid-template-columns: 1fr; }
 }
 
+/* ---------- Contact: date range field ---------- */
+.date-range-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.7rem 2.4rem;
+}
+
+.date-field .sublabel {
+  font-size: 0.68rem;
+  color: var(--stone-solid);
+}
+
+.date-field input[type="date"] {
+  color-scheme: light;
+}
+
+.date-field input[type="date"]:disabled {
+  color: var(--stone-solid);
+  border-color: var(--cream-dark);
+  cursor: not-allowed;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-top: 1.1rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--stone-solid);
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 1.1em;
+  height: 1.1em;
+  margin: 0;
+  accent-color: var(--terracotta);
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .date-range-row { grid-template-columns: 1fr; gap: 1.7rem; }
+}
+
 /* ---------- Lightbox ---------- */
 .lightbox-trigger {
   border: none;

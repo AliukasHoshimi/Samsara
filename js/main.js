@@ -195,7 +195,17 @@ document.addEventListener("DOMContentLoaded", function () {
           if (value) lines.push(label + ": " + value);
         };
         addLine("Session type", "session_type");
-        addLine("Date(s)", "dates");
+        if (data.get("dates_flexible")) {
+          lines.push("Date(s): Flexible");
+        } else {
+          var dateFrom = data.get("date_from");
+          var dateTo = data.get("date_to");
+          if (dateFrom && dateTo && dateFrom !== dateTo) {
+            lines.push("Date(s): " + dateFrom + " to " + dateTo);
+          } else if (dateFrom || dateTo) {
+            lines.push("Date(s): " + (dateFrom || dateTo));
+          }
+        }
         if (message) lines.push("Message: " + message);
         message = lines.join("\n");
       }
@@ -254,8 +264,8 @@ document.addEventListener("DOMContentLoaded", function () {
       bookingToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
       if (bookingLabel) {
         bookingLabel.textContent = isOpen
-          ? "Hide the full inquiry form"
-          : "Ready to book? Fill out the full inquiry form";
+          ? "Hide this"
+          : "Not sure yet? Reach out and we can talk";
       }
       bookingWrap.style.maxHeight = isOpen ? bookingInner.scrollHeight + "px" : null;
 
@@ -263,6 +273,23 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(function () {
           bookingWrap.scrollIntoView({ behavior: "smooth", block: "start" });
         }, 150);
+      }
+    });
+  }
+
+  // Inquiry form — "flexible on dates" disables the date range inputs
+  var flexCheckbox = document.getElementById("dates-flexible");
+  var dateFrom = document.getElementById("date-from");
+  var dateTo = document.getElementById("date-to");
+
+  if (flexCheckbox && dateFrom && dateTo) {
+    flexCheckbox.addEventListener("change", function () {
+      var flexible = flexCheckbox.checked;
+      dateFrom.disabled = flexible;
+      dateTo.disabled = flexible;
+      if (flexible) {
+        dateFrom.value = "";
+        dateTo.value = "";
       }
     });
   }
