@@ -111,9 +111,16 @@ document.addEventListener("DOMContentLoaded", function () {
       var phClass = trigger.getAttribute("data-ph") || "ph-1";
       var ratio = trigger.getAttribute("data-ratio") || "ratio-wide";
       var cap = trigger.getAttribute("data-caption") || "";
+      var full = trigger.getAttribute("data-full") || "";
+      var altText = cap.replace(/"/g, "&quot;");
+      var imgTag = full
+        ? '<img src="' + full + '" alt="' + altText + '" loading="eager" ' +
+          "onload=\"this.classList.add('is-loaded')\" onerror=\"this.style.display='none'\">"
+        : "";
       stage.innerHTML =
         '<div class="ph-img ' + phClass + " " + ratio + '">' +
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.3"/></svg>' +
+        imgTag +
         "</div>";
       caption.textContent = cap;
     }
