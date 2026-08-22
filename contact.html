@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | SamsaraFilmss</title>
+<meta name="description" content="Get in touch with Jenna at SamsaraFilmss to book your nature, lifestyle, or portrait session.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | SamsaraFilmss">
+<meta property="og:description" content="Get in touch with Jenna at SamsaraFilmss to book your nature, lifestyle, or portrait session.">
+<meta property="og:image" content="images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact | SamsaraFilmss">
+<meta name="twitter:description" content="Get in touch with Jenna at SamsaraFilmss to book your nature, lifestyle, or portrait session.">
+<meta name="twitter:image" content="images/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><span class="brand-mark">S</span>Samsara<em>Filmss</em></a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero-edit">
+    <div class="container">
+      <span class="eyebrow-mono">Contact</span>
+      <h1 class="display-huge">I can't wait<br>to hear <em>from you</em></h1>
+      <hr class="rule-diagonal">
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-split">
+
+      <div class="contact-info">
+        <div class="info-item">
+          <span class="label">Location</span>
+          <span>Santa Barbara, CA</span>
+        </div>
+        <div class="info-item">
+          <span class="label">Email</span>
+          <a href="mailto:jenna.mcmullen12@gmail.com">jenna.mcmullen12@gmail.com</a>
+        </div>
+        <div class="info-item">
+          <span class="label">Instagram</span>
+          <a href="https://instagram.com/samsarafilmss" target="_blank" rel="noopener">@samsarafilmss</a>
+        </div>
+
+        <div class="quick-links">
+          <a href="portfolio.html" class="arrow-link">Take a look at my work <span class="arrow">&rarr;</span></a>
+          <a href="experience.html" class="arrow-link">Find out my process <span class="arrow">&rarr;</span></a>
+          <a href="experience.html#faq" class="arrow-link">See my offerings <span class="arrow">&rarr;</span></a>
+        </div>
+      </div>
+
+      <div>
+        <form class="contact-form booking-grid">
+          <input type="hidden" name="form_type" value="Inquiry">
+          <div>
+            <label for="name">Your Name*</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email address*</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div>
+            <label for="instagram">Instagram Handle</label>
+            <input type="text" id="instagram" name="instagram" placeholder="@yourhandle">
+          </div>
+          <div>
+            <label for="session-type">Which session are you inquiring for?</label>
+            <div class="select-wrap">
+              <select id="session-type" name="session_type">
+                <option value="" selected disabled>Select one</option>
+                <option>Couples sesh</option>
+                <option>Family sesh</option>
+                <option>Senior Photos</option>
+                <option>Maternity</option>
+                <option>Wedding</option>
+                <option>Elopement</option>
+                <option>Me myself &amp; I</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="dates">What date(s) are you looking at?</label>
+            <input type="text" id="dates" name="dates">
+          </div>
+          <div class="full-width">
+            <label for="message">Your Message*</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-solid full-width" style="align-self:flex-start;">Let's Connect</button>
+          <p class="form-note full-width"></p>
+        </form>
+
+        <button type="button" class="arrow-link booking-toggle" aria-expanded="false">
+          <span class="label-text">Not sure yet? Reach out and we can talk</span> <span class="arrow">&rarr;</span>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="booking-form-wrap">
+        <div class="booking-form-inner">
+          <span class="eyebrow-mono">Just Say Hi</span>
+          <h2>No pressure — let's chat first</h2>
+          <p class="lede">Not ready for the full details yet? Send a quick note and we'll figure out the rest together.</p>
+
+          <form class="contact-form">
+            <input type="hidden" name="form_type" value="Quick Contact">
+            <div>
+              <label for="quick-name">Your Name*</label>
+              <input type="text" id="quick-name" name="name" required>
+            </div>
+            <div>
+              <label for="quick-email">Email address*</label>
+              <input type="email" id="quick-email" name="email" required>
+            </div>
+            <div>
+              <label for="quick-message">Your Message*</label>
+              <textarea id="quick-message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-solid" style="align-self:flex-start;">Let's Connect</button>
+            <p class="form-note"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <span class="eyebrow-mono">Questions</span>
+      <h2>Frequently asked</h2>
+
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <span class="faq-num">01</span>
+          <div>
+            <button class="faq-question">This is my first photoshoot and I'm kind of nervous.</button>
+            <div class="faq-answer">
+              <p>Not to worry! We'll make it super fun with prompts and documentary-style moments rather than just posing. You're in good hands.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <span class="faq-num">02</span>
+          <div>
+            <button class="faq-question">What should I wear?</button>
+            <div class="faq-answer">
+              <p>I'm happy to help plan and coordinate outfits based on the vision of the shoot.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <span class="faq-num">03</span>
+          <div>
+            <button class="faq-question">How many pictures will I receive?</button>
+            <div class="faq-answer">
+              <p>I'm a bit of an overshooter, so usually anywhere from 75&ndash;150, depending on the length of the shoot.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <span class="faq-num">04</span>
+          <div>
+            <button class="faq-question">Are you available outside of Santa Barbara?</button>
+            <div class="faq-answer">
+              <p>I'd love to travel to wherever you are &mdash; just for an extra travel fee, of course :)</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <span class="faq-num">05</span>
+          <div>
+            <button class="faq-question">Do you do couples photography?</button>
+            <div class="faq-answer">
+              <p>Absolutely! One of my favorite things to photograph is the unique love language each couple shares.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <span class="faq-num">06</span>
+          <div>
+            <button class="faq-question">Do you have specific places you prefer to shoot?</button>
+            <div class="faq-answer">
+              <p>I have my favorite tried-and-true spots, but I love trying new places too if you have somewhere in mind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-cta">
+      <span class="eyebrow-mono">Say hello</span>
+      <h2>Let's create something together</h2>
+      <a href="https://instagram.com/samsarafilmss" target="_blank" rel="noopener" class="btn-solid on-dark">Follow on Instagram</a>
+    </div>
+    <div class="footer-bottom">
+      <span>Santa Barbara, CA</span>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://instagram.com/samsarafilmss" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <span>&copy; SamsaraFilmss</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
