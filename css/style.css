@@ -902,31 +902,24 @@ button.arrow-link:hover { border-color: var(--terracotta); }
   width: 100%;
   border: none;
   border-bottom: 1px solid var(--stone);
-  background: transparent;
-  padding: 0.6em 1.3rem 0.6em 0;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23bd6b42' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") no-repeat right center/16px;
+  padding: 0.6em 1.7rem 0.6em 0;
   font-family: var(--font-display);
   font-size: 1.1rem;
   color: var(--charcoal);
   appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
   border-radius: 0;
   cursor: pointer;
+  transition: border-color 0.25s ease;
 }
 
 .contact-form select:invalid { color: var(--stone-solid); }
+.contact-form select:hover { border-color: var(--terracotta); }
 .contact-form select:focus { outline: none; border-color: var(--terracotta); }
 
 .select-wrap { position: relative; }
-
-.select-wrap::after {
-  content: "\25BE";
-  position: absolute;
-  right: 0.15rem;
-  bottom: 0.6em;
-  pointer-events: none;
-  color: var(--stone-solid);
-  font-size: 0.8rem;
-}
 
 @media (max-width: 700px) {
   .contact-form.booking-grid { grid-template-columns: 1fr; }

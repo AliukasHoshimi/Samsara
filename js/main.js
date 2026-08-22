@@ -241,8 +241,11 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .then(function (result) {
           if (result.ok) {
-            note.textContent = "Thanks for reaching out! I'll get back to you soon.";
+            note.textContent = isInquiry
+              ? "Thanks for reaching out! I'll be in touch soon — excited to see what we make together."
+              : "Thanks for reaching out! I'll get back to you soon.";
             form.reset();
+            if (isInquiry && dateTo) dateTo.min = todayIso;
           } else {
             note.textContent = "Something went wrong sending that — please try again, or email jenna.mcmullen12@gmail.com directly.";
           }
@@ -284,10 +287,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Inquiry form — "flexible on dates" disables the date range inputs
+  // Inquiry form — date range can't start in the past, and "Latest"
+  // can't be set before "Earliest". "Flexible on dates" disables both.
   var flexCheckbox = document.getElementById("dates-flexible");
   var dateFrom = document.getElementById("date-from");
   var dateTo = document.getElementById("date-to");
+
+  if (dateFrom && dateTo) {
+    var todayIso = (function () {
+      var d = new Date();
+      var mm = String(d.getMonth() + 1).padStart(2, "0");
+      var dd = String(d.getDate()).padStart(2, "0");
+      return d.getFullYear() + "-" + mm + "-" + dd;
+    })();
+
+    dateFrom.min = todayIso;
+    dateTo.min = todayIso;
+
+    dateFrom.addEventListener("change", function () {
+      dateTo.min = dateFrom.value || todayIso;
+      if (dateTo.value && dateTo.value < dateTo.min) dateTo.value = "";
+    });
+  }
 
   if (flexCheckbox && dateFrom && dateTo) {
     flexCheckbox.addEventListener("change", function () {
@@ -297,6 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (flexible) {
         dateFrom.value = "";
         dateTo.value = "";
+        dateTo.min = todayIso;
       }
     });
   }
