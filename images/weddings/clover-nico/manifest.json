@@ -1,0 +1,362 @@
+[
+  {
+    "num": "01",
+    "file": "01.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-1"
+  },
+  {
+    "num": "02",
+    "file": "02.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-2"
+  },
+  {
+    "num": "03",
+    "file": "03.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-3"
+  },
+  {
+    "num": "04",
+    "file": "04.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-4"
+  },
+  {
+    "num": "05",
+    "file": "05.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-5"
+  },
+  {
+    "num": "06",
+    "file": "06.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-6"
+  },
+  {
+    "num": "07",
+    "file": "07.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-7"
+  },
+  {
+    "num": "08",
+    "file": "08.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-8"
+  },
+  {
+    "num": "09",
+    "file": "09.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-9"
+  },
+  {
+    "num": "10",
+    "file": "10.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-10"
+  },
+  {
+    "num": "11",
+    "file": "11.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-11"
+  },
+  {
+    "num": "12",
+    "file": "12.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-12"
+  },
+  {
+    "num": "13",
+    "file": "13.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-1"
+  },
+  {
+    "num": "14",
+    "file": "14.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-2"
+  },
+  {
+    "num": "15",
+    "file": "15.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-3"
+  },
+  {
+    "num": "16",
+    "file": "16.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-4"
+  },
+  {
+    "num": "17",
+    "file": "17.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-5"
+  },
+  {
+    "num": "18",
+    "file": "18.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-6"
+  },
+  {
+    "num": "19",
+    "file": "19.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-7"
+  },
+  {
+    "num": "20",
+    "file": "20.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-8"
+  },
+  {
+    "num": "21",
+    "file": "21.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-9"
+  },
+  {
+    "num": "22",
+    "file": "22.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-10"
+  },
+  {
+    "num": "23",
+    "file": "23.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-11"
+  },
+  {
+    "num": "24",
+    "file": "24.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-12"
+  },
+  {
+    "num": "25",
+    "file": "25.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-1"
+  },
+  {
+    "num": "26",
+    "file": "26.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-2"
+  },
+  {
+    "num": "27",
+    "file": "27.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-3"
+  },
+  {
+    "num": "28",
+    "file": "28.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-4"
+  },
+  {
+    "num": "29",
+    "file": "29.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-5"
+  },
+  {
+    "num": "30",
+    "file": "30.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-6"
+  },
+  {
+    "num": "31",
+    "file": "31.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-7"
+  },
+  {
+    "num": "32",
+    "file": "32.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-8"
+  },
+  {
+    "num": "33",
+    "file": "33.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-9"
+  },
+  {
+    "num": "34",
+    "file": "34.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-10"
+  },
+  {
+    "num": "35",
+    "file": "35.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-11"
+  },
+  {
+    "num": "36",
+    "file": "36.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-12"
+  },
+  {
+    "num": "37",
+    "file": "37.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-1"
+  },
+  {
+    "num": "38",
+    "file": "38.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-2"
+  },
+  {
+    "num": "39",
+    "file": "39.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-3"
+  },
+  {
+    "num": "40",
+    "file": "40.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-4"
+  },
+  {
+    "num": "41",
+    "file": "41.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-5"
+  },
+  {
+    "num": "42",
+    "file": "42.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-6"
+  },
+  {
+    "num": "43",
+    "file": "43.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-7"
+  },
+  {
+    "num": "44",
+    "file": "44.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-8"
+  },
+  {
+    "num": "45",
+    "file": "45.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-9"
+  },
+  {
+    "num": "46",
+    "file": "46.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-10"
+  },
+  {
+    "num": "47",
+    "file": "47.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-11"
+  },
+  {
+    "num": "48",
+    "file": "48.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-12"
+  },
+  {
+    "num": "49",
+    "file": "49.jpg",
+    "ratio": "ratio-wide",
+    "phClass": "ph-1"
+  },
+  {
+    "num": "50",
+    "file": "50.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-2"
+  },
+  {
+    "num": "51",
+    "file": "51.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-3"
+  },
+  {
+    "num": "52",
+    "file": "52.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-4"
+  },
+  {
+    "num": "53",
+    "file": "53.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-5"
+  },
+  {
+    "num": "54",
+    "file": "54.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-6"
+  },
+  {
+    "num": "55",
+    "file": "55.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-7"
+  },
+  {
+    "num": "56",
+    "file": "56.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-8"
+  },
+  {
+    "num": "57",
+    "file": "57.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-9"
+  },
+  {
+    "num": "58",
+    "file": "58.jpg",
+    "ratio": "ratio-tall",
+    "phClass": "ph-10"
+  },
+  {
+    "num": "59",
+    "file": "59.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-11"
+  },
+  {
+    "num": "60",
+    "file": "60.jpg",
+    "ratio": "ratio-portrait",
+    "phClass": "ph-12"
+  }
+]
