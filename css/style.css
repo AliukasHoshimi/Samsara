@@ -542,8 +542,8 @@ blockquote.quote-edit {
   margin-top: 2rem;
 }
 
-/* Fading word-cycle — teases the gallery chapters (Golden Hour,
-   High Country, ...) one at a time, each word linking through. */
+/* Fading word-cycle — teases the gallery chapters (Boudoir,
+   Film, ...) one at a time, each word linking through. */
 .gallery-fader {
   position: relative;
   height: clamp(2.2rem, 5vw, 3.2rem);
