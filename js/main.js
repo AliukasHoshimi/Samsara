@@ -58,6 +58,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Portfolio hero — auto-crossfades through its photos, no manual
+  // controls (unlike the home hero, which is dot/arrow-driven only).
+  var galleryHeroSlides = document.querySelectorAll(".gallery-hero .hero-slide");
+
+  if (galleryHeroSlides.length > 1) {
+    var ghIndex = 0;
+    setInterval(function () {
+      galleryHeroSlides[ghIndex].classList.remove("active");
+      ghIndex = (ghIndex + 1) % galleryHeroSlides.length;
+      galleryHeroSlides[ghIndex].classList.add("active");
+    }, 4500);
+  }
+
   // Home closing CTA — crossfades through the gallery chapter names
   var fadeWords = document.querySelectorAll(".gallery-fade-word");
 
