@@ -14,19 +14,19 @@
   {
     "num": "03",
     "file": "03.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-wide",
     "phClass": "ph-3"
   },
   {
     "num": "04",
     "file": "04.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-wide",
     "phClass": "ph-4"
   },
   {
     "num": "05",
     "file": "05.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-tall",
     "phClass": "ph-5"
   },
   {
@@ -38,19 +38,19 @@
   {
     "num": "07",
     "file": "07.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-tall",
     "phClass": "ph-7"
   },
   {
     "num": "08",
     "file": "08.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-tall",
     "phClass": "ph-8"
   },
   {
     "num": "09",
     "file": "09.jpg",
-    "ratio": "ratio-wide",
+    "ratio": "ratio-tall",
     "phClass": "ph-9"
   },
   {
@@ -62,7 +62,7 @@
   {
     "num": "11",
     "file": "11.jpg",
-    "ratio": "ratio-wide",
+    "ratio": "ratio-portrait",
     "phClass": "ph-11"
   },
   {
@@ -74,13 +74,13 @@
   {
     "num": "13",
     "file": "13.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-tall",
     "phClass": "ph-1"
   },
   {
     "num": "14",
     "file": "14.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-tall",
     "phClass": "ph-2"
   },
   {
@@ -92,25 +92,25 @@
   {
     "num": "16",
     "file": "16.jpg",
-    "ratio": "ratio-wide",
+    "ratio": "ratio-portrait",
     "phClass": "ph-4"
   },
   {
     "num": "17",
     "file": "17.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-tall",
     "phClass": "ph-5"
   },
   {
     "num": "18",
     "file": "18.jpg",
-    "ratio": "ratio-wide",
+    "ratio": "ratio-portrait",
     "phClass": "ph-6"
   },
   {
     "num": "19",
     "file": "19.jpg",
-    "ratio": "ratio-portrait",
+    "ratio": "ratio-wide",
     "phClass": "ph-7"
   },
   {
