@@ -215,6 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
           if (value) lines.push(label + ": " + value);
         };
         addLine("Session type", "session_type");
+        addLine("Estimated budget", "budget");
         if (data.get("dates_flexible")) {
           lines.push("Date(s): Flexible");
         } else {
